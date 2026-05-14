@@ -1,0 +1,20 @@
+# Cloudflare Pages 빌드 및 바인딩 설정
+name = "cloudpress-site"
+compatibility_date = "2025-04-01"
+
+[[d1_databases]]
+binding       = "DB"
+database_name = "cp-7a3ee133-db"
+database_id   = "5371206e-5ef8-40f4-885e-662de5f55e40"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id      = "c90b2e60bbdf45978fd5d4e651a07eab"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id      = "7e8be8db43f04240b0eec7269ac6485a"
+
+[vars]
+SITE_ID   = "7a3ee133-6c13-45ff-8000-f0d2891ae133"
+SITE_NAME = "테스트 워드프레스"
